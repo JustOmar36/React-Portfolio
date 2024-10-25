@@ -37,9 +37,29 @@ input, textarea {
 }
 
 .container-border {
-    background-color: #E9EED9; /* Background color inside the border */
+    background-color: #E9EED9;
     border-radius: 20px;
     height: 100vh;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: shadow for depth */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     overflow: auto;
+}
+
+.about-content {
+  display: flex;
+  align-items: center; /* Vertically centers content */
+  justify-content: center; /* Centers both text and video */
+  max-width: 80%; /* Limits width for a centered look */
+  margin: 0 auto;
+}
+
+.about-text {
+  flex: 1;
+  padding-right: 20px; /* Adds space between text and video */
+}
+
+.about-video {
+  width: 500px; /* Adjusts video size as needed */
+  height: 500px;
+  max-width: 100%;
+  border-radius: 8px;
 }
