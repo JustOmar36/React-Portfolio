@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const ScrollIndicator = () => {
+const ScrollIndicator = ({ height = '400px'}) => {
     const [glowAnimation, setGlowAnimation] = useState(false);
 
     useEffect(() => {
@@ -32,7 +32,7 @@ const ScrollIndicator = () => {
 
     const scrollLineStyle = {
         width: '1px',
-        height: '400px',
+        height: height,
         backgroundColor: '#697565',
         opacity: 0.5,
     };
