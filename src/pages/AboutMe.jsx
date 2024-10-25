@@ -1,5 +1,3 @@
-import React from 'react';
-
 function AboutMe() {
   return (
     <div className="container-border">
@@ -10,10 +8,7 @@ function AboutMe() {
         </div>
         
         {/* Video Section */}
-        <video autoPlay loop muted className="about-video">
-          <source src="/assets/Me.webm" type="video/webm" />
-          Your browser does not support the video tag.
-        </video>
+        <img src="/src/assets/merged.gif" alt="Animated illustration" className="about-gif" />
       </div>
     </div>
   );

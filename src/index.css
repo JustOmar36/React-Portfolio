@@ -1,7 +1,7 @@
 body {
-  margin: 0; /* Remove default margin */
+  margin: 0;
   padding: 20px;
-  height: 100vh; /* Make sure the body takes up the full height */
+  height: 100vh;
 }
 
 h1 {
@@ -42,23 +42,28 @@ input, textarea {
     height: 100vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .about-content {
   display: flex;
-  align-items: center; /* Vertically centers content */
-  justify-content: center; /* Centers both text and video */
-  max-width: 80%; /* Limits width for a centered look */
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
   margin: 0 auto;
 }
 
 .about-text {
   flex: 1;
-  padding-right: 20px; /* Adds space between text and video */
+  padding-right: 20px;
+  text-align: right; /* Right-align text */
 }
 
 .about-video {
-  width: 500px; /* Adjusts video size as needed */
+  width: 500px;
   height: 500px;
   max-width: 100%;
   border-radius: 8px;
