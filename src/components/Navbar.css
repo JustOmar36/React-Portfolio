@@ -1,0 +1,89 @@
+body {
+    transition: margin-left 0.5s ease; /* Smooth transition for body margin */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    color: #333;
+    position: fixed; /* Needed for dropdown positioning */
+    z-index: 1000; /* Ensure navbar is above other elements */
+}
+
+.hamburger {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.dropdown {
+    position: fixed; /* Fixed positioning for dropdown */
+    top: 0;
+    left: 0; /* Align to left */
+    width: 250px; /* Fixed width for dropdown */
+    height: 100%; /* Full height */
+    background-color: rgba(0, 0, 0, 0.9); /* Dark semi-transparent background */
+    display: flex;
+    flex-direction: column; /* Stack links vertically */
+    justify-content: center; /* Center links */
+    align-items: center; /* Center links */
+    transform: translateX(-100%); /* Initially hidden (off screen) */
+    transition: transform 0.5s ease; /* Smooth transition */
+    opacity: 0; /* Hidden initially */
+}
+
+.navbar.open {
+    margin-left: 250px; /* Push the content to the right when open */
+}
+
+.dropdown.open {
+    transform: translateX(0); /* Slide in */
+    opacity: 1; /* Show the dropdown */
+}
+
+.dropdown a {
+    padding: 20px; /* Increase padding for better touch targets */
+    color: white;
+    text-decoration: none;
+    font-size: 36px; /* Larger font size */
+    transition: color 0.3s ease; /* Smooth hover color transition */
+}
+
+.dropdown a:hover {
+    color: #ccc; /* Change color on hover */
+}
+
+/* Close button styles */
+.close-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 36px; /* Larger close button */
+    cursor: pointer;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.close-button:hover {
+    color: #ccc; /* Change color on hover */
+}
+
+/* Styling for the Contact Me button */
+.contact-button {
+  right: 50px;
+  position: fixed;
+}
+
+.contact-btn {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: letter-spacing 0.3s ease;
+}
+
+.contact-btn:hover {
+  letter-spacing: 2px;
+}
