@@ -16,12 +16,12 @@ const ScrollIndicator = ({ height = '400px'}) => {
         flexDirection: 'column',
         alignItems: 'center',
         position: 'relative',
-        marginTop: '100px',
+        marginTop: '50px',
     };
 
     const scrollTextStyle = {
         fontSize: '14px',
-        marginBottom: '10px',
+        marginBottom: '20px',
         color: '#697565',
         opacity: 0.5,
         textShadow: glowAnimation

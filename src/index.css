@@ -64,7 +64,7 @@ input, textarea {
   justify-content: center;
   max-width: 80%;
   margin: 0 auto;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .left-text {
@@ -126,6 +126,7 @@ input, textarea {
   font-size: 25px;
   color: '#222831';
   margin: 0;
+  padding-top: 20px;
 }
 
 .intern-position{
@@ -143,10 +144,17 @@ input, textarea {
 }
 
 .data-img{
-  display: flex;               /* Enable Flexbox layout */
-  justify-content: center;     /* Center horizontally */
-  align-items: center;         /* Center vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
   padding-bottom: 20px;
-  max-width: 20%;                 /* Full width of the parent */
+  max-width: 20%;
+}
+
+/* Projects */
+.project-description{
+  max-width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
 }
