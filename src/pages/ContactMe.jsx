@@ -26,38 +26,40 @@ function ContactMe() {
     <div class="container-border">
       <h1>Contact Me</h1>
       <p>If you would like to get in touch, please fill out the form below.</p>
+      <div class="centered-container">
 
-      {messageSent && <p>Your message has been sent!</p>}
+        {messageSent && <p>Your message has been sent!</p>}
 
-      <form ref={form} onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            name="from_name"
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="from_email"
-            required
-          />
-        </div>
-        <div>
-          <label htmlFor="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            required
-          />
-        </div>
-        <button type="submit">Send Message</button>
-      </form>
+        <form ref={form} onSubmit={handleSubmit}>
+          <div>
+            <label htmlFor="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="from_name"
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="from_email"
+              required
+            />
+          </div>
+          <div>
+            <label htmlFor="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+            />
+          </div>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
     </div>
   );
 }
