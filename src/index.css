@@ -5,13 +5,27 @@ body {
 }
 
 h1 {
-  color: #333;
+  color: #222831;
   text-align: center;
+  padding-top: 30px;
+}
+
+h2 {
+  color: #222831;
+  text-align: center;
+}
+
+a {
+  color: #222831;
+}
+
+a:visited {
+  color: #222831;
 }
 
 p {
   text-align: center;
-  color: #555;
+  color: #222831;
 }
 
 form {
@@ -37,16 +51,18 @@ input, textarea {
 }
 
 .container-border {
-    background-color: #E9EED9;
-    border-radius: 20px;
-    height: 100vh;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    overflow: auto;
-    display: flex;
+    background-color: #EEEEEE;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 100px;
 }
+
+/*About Section*/
 
 .about-content {
   display: flex;
@@ -54,17 +70,49 @@ input, textarea {
   justify-content: center;
   max-width: 80%;
   margin: 0 auto;
+  padding-top: 100px;
 }
 
-.about-text {
-  flex: 1;
-  padding-right: 20px;
-  text-align: right; /* Right-align text */
+.left-text {
+  max-width: 50%;
+  font-size: 20px;
+  text-align: right;
 }
 
-.about-video {
-  width: 500px;
-  height: 500px;
+.right-text{
+  max-width: 50%;
+  font-size: 20px;
+  padding-left: 300px;
+}
+
+.about-name {
+  font-size: 40px;
+}
+
+.about-desc {
+  font-size: 20px;
+}
+
+.about-gif {
+  width: 600px;
+  height: auto;
   max-width: 100%;
-  border-radius: 8px;
+}
+
+.education-img{
+  width: 400px;
+  height: auto;
+  max-width: 100%;
+}
+
+.lifting-img{
+  width: 400px;
+  height: auto;
+  max-width: 100%;
+}
+
+.gaming-img{
+  width: 350px;
+  height: auto;
+  max-width: 100%;
 }
