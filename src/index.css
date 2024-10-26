@@ -28,6 +28,7 @@ a:visited {
 p {
   text-align: center;
   color: #222831;
+  font-size: 20px;
 }
 
 form {
@@ -180,4 +181,9 @@ input, textarea {
   max-width: 50%;
   margin: 0 auto;
   font-size: 20px;
+}
+
+.rendered-item-text{
+  font-size: 12px;
+  opacity: 0.7;
 }
