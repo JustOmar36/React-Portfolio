@@ -2,11 +2,19 @@ h1 {
   color: #222831;
   text-align: center;
   padding-top: 30px;
+  font-size: 35px;
 }
 
 h2 {
   color: #222831;
   text-align: center;
+  font-size: 30px;
+}
+
+h3 {
+  color: #222831;
+  text-align: center;
+  font-size: 25px;
 }
 
 a {
@@ -154,6 +162,21 @@ input, textarea {
 
 /* Projects */
 .project-description{
+  max-width: 50%;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.project-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-bottom: 20px;
+  max-width: 20%;
+}
+
+.project-container{
   max-width: 50%;
   margin: 0 auto;
   font-size: 20px;
