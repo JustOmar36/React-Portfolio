@@ -260,7 +260,7 @@ const Board = () => {
         }
         return true;
     }
-    
+
     return (
     <div>
       <h1>2048</h1>
@@ -276,6 +276,7 @@ const Board = () => {
           </p>
         </div>
       </div>
+      <p>Arrow Keys to Play!</p>
     </div>
   );
 };

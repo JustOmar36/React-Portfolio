@@ -34,9 +34,11 @@ function Projects() {
         <h3 className="2048-title">2048</h3>
         <p className="2048-desc">2048 has been a game that has stuck with me since my early teens. I've played it on almost every device I own, and I can admit...I'm not the best still. That being said 2048 was my first attempt at making a game in 2020. It turned out to be harder than I'd like to admit. I gave my friends access to my version of 2048 and I was met with complaints of how unresponsive it was. Hearing those complaints I decided to move on from games. Looking back I wish had tried again sooner, but there's no such thing as too late. I recently went back and decided to recreate the game properly this time. <a href="/2048">Click here if you would like to try it!</a> </p>
 
+      </div>
       <Divider />
-
-
+      <div className="project-container">
+        <h2 className="web-dev">Web Developement</h2>
+        <p className="Jobify">As part of every developers journey, tracking and maintaining all applications subitted to companies is important. Everyone has their own method of doing so, but I decided to create my own job posting and tracking application. This project focused on using <b>React JS</b>, <b>Express JS</b>, <b>Mongoose</b> and <b>MongoDB</b>. <a href='https://jobi-posting.onrender.com/login'>Take a look yourself!</a></p>
       </div>
 
     </div>
